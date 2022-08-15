@@ -1,10 +1,17 @@
 /* Common styling for all pages*/
 
+@font-face {
+    font-family: sf-pro;
+    src: url(fonts/sf-pro/SF-Pro.ttf);
+}
+
 body {
     margin: 0;
-    font-family: Verdana;
+    font-family: sf-pro;
     letter-spacing: -1.2px;
 }
+
+/* Header */
 
 header {
     position:sticky;
@@ -15,6 +22,7 @@ header {
     padding: 10px;
     background-color: #f5f5f533;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid #00000033;
 }
 
@@ -122,6 +130,7 @@ header nav ul li a:hover {
     background-color: #ffffff33;
     border: 1px solid #00000044;
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 #menu li:first-of-type {
@@ -147,4 +156,60 @@ header nav ul li a:hover {
 
 #menu li a:hover {
     text-decoration: underline;
+}
+
+/* Section: Event Announcement*/
+
+#event {
+    text-align: center;
+    background-image: linear-gradient(30deg, #bb00ff9c 25%, #1100ffbd, #006ad4);
+    /* background-image: linear-gradient(30deg, #ff005dda, #ff53928c,rgba(252, 175, 203, 0.824)); */
+
+    padding: 20px;
+}
+
+#event h1 {
+    font-size: 4em;
+    margin: 20px;
+    color: #008cff;
+    text-shadow: 0 0 10px #008cff;
+    /* color: #ff0762;
+    text-shadow: 0 0 10px #ff005d; */
+}
+
+#event p {
+    color: white;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+#event p:last-of-type {
+    font-size: 0.8em;
+    margin-bottom: 2em;
+}
+
+#event a {
+    margin: 2em;
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 12px #00000077;
+}
+
+#event a:hover {
+    background-color: #ffffff33;
+}
+
+/* Section: Next Level product */
+
+#next-level {
+    text-align: center;
+}
+
+#next-level img {
+    width: 100%;
+    height: fit-content;
 }
