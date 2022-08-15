@@ -335,3 +335,50 @@ header nav ul li a:hover {
 
 /****************************************************************************************************/
 
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#company {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#address {
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 12px;
+}
+
+.reserve {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    color: grey;
+}
+
+.reserve a:hover {
+    text-decoration: underline;
+}
+
+/****************************************************************************************************/
