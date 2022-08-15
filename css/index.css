@@ -8,7 +8,6 @@
 body {
     margin: 0;
     font-family: sf-pro;
-    letter-spacing: -1.2px;
 }
 
 /* Header */
@@ -23,7 +22,8 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid #00000033;
-    background-image: linear-gradient(30deg, #ff005d77, #ff539265); /*header bg*/
+    background-color: #ff005d66;
+    /*background-image: linear-gradient(30deg, #ff005d66, #ff539233); /*header bg*/
 }
 
 
@@ -71,8 +71,14 @@ header nav ul li a:hover {
     position: relative;
     width: 32px;
     height: 32px;
-    padding: 5px 8px 0 10px;
+    padding: 5px 10px 0 10px;
     display: none;
+}
+
+#menu-btn:hover {
+    background-color: #00000033;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in;
 }
 
 #line-one {
@@ -158,6 +164,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+/**************************************************************************************************/
 /* Section: Event Announcement*/
 
 #event {
@@ -189,7 +196,6 @@ header nav ul li a:hover {
 }
 
 #event a {
-    margin: 2em;
     padding: 10px 20px;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -201,8 +207,10 @@ header nav ul li a:hover {
 
 #event a:hover {
     background-color: #ffffff33;
+    transition: background-color 0.2s ease-in;
 }
 
+/****************************************************************************************************?/
 /* Section: Next Level product */
 
 #next-level {
@@ -213,3 +221,79 @@ header nav ul li a:hover {
     width: 100%;
     height: fit-content;
 }
+
+/***************************************************************************************************/
+/* Section: The Store*/
+
+#store {
+    margin-top: -4px;
+    padding: 20px;
+    text-align: center;
+    background-image: -webkit-radial-gradient(top left, #fd008733, #fd008766, #fd008799);
+    padding-bottom: 50px;
+}
+
+#pics {
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#pics img {
+    max-width: 350px;
+    min-width: 200px;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#btn {
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 12px #00000077;
+}
+
+#btn:hover {
+    background-color: #ffffff33;
+    transition: background-color 0.2s ease-in;
+}
+
+/****************************************************************************************************/
+/* Section: Education */
+
+#edu {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+#edu img {
+    width: 200px;
+    height: 200px;
+}
+
+#edu a {
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 0 12px #ffffff77;
+}
+
+#edu a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.2s ease-in;
+    transition: color 0.2 ease-in;
+}
+
+/****************************************************************************************************/
