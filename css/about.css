@@ -189,6 +189,12 @@ main {
     font-size: 20px;
 }
 
+main div {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .inline-links {
     text-decoration: none;
     color: rgb(70, 70, 255);
