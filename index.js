@@ -1,4 +1,4 @@
-//Icon
+// Icon
 
 let icon = document.getElementById("cherry-icon");
 
@@ -11,7 +11,7 @@ icon.onmouseleave = function() {
 }
 /*****************/
 
-//Menu
+// Menu
 
 let menuBtn = document.getElementById("menu-btn");
 let menu = document.getElementById("menu");
@@ -26,4 +26,29 @@ close.onclick = function() {
 }
 /***************/
 
-// 
+// Slider
+
+let images = [
+    "css/images/phone.png",
+    "css/images/phone-curved.png"
+];
+
+let num = 0;
+
+function prev() {
+    var slider = document.getElementById("slider");
+    num--;
+    if(num < 0){
+        num = images.length-1;
+    }
+    slider.src = images[num];
+}
+
+function next() {
+    var slider = document.getElementById("slider");
+    num++;
+    if(num >= images.length){
+        num = 0;
+    }
+    slider.src = images[num];
+}
