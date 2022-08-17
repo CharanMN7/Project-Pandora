@@ -283,6 +283,24 @@ footer img {
     margin-right: 10px;
 }
 
+
+footer ul {
+    margin: 0;
+    padding:0 ;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+
 #address {
     padding-bottom: 20px;
     color: grey;
