@@ -7,7 +7,7 @@ icon.onmouseover = function() {
 }
 
 icon.onmouseleave = function() {
-    icon.src = "css/images/icons/cherries-bw.png";
+    icon.src = "css/images/icons/cherries-white.png";
 }
 /*****************/
 

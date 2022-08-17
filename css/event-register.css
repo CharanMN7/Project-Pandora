@@ -18,7 +18,8 @@ header {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid #00000033;
-    background-color: #ff005d66;
+    color: white;
+    background-color: #000000ee;
     /*background-image: linear-gradient(30deg, #ff005d66, #ff539233); /*header bg*/
 }
 
@@ -56,7 +57,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header nav ul li a:hover {
@@ -72,14 +73,14 @@ header nav ul li a:hover {
 }
 
 #menu-btn:hover {
-    background-color: #00000033;
+    background-color: #ffffff33;
     border-radius: 4px;
     transition: background-color 0.2s ease-in;
 }
 
 #line-one {
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 32px;
     border-radius: 4px;
     top: 8px;
@@ -87,7 +88,7 @@ header nav ul li a:hover {
 
 #line-two {
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 32px;
     border-radius: 4px;
     top: 16px;
@@ -95,7 +96,7 @@ header nav ul li a:hover {
 
 #line-three {
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 32px;
     border-radius: 4px;
     top: 24px;

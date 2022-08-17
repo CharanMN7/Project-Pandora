@@ -13,9 +13,11 @@ header {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid #00000033;
-    background-color: #ff005d66;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-bottom: 1px solid #ffffff33;
+    color: white;
+    background-color: #000000ee;
 }
 
 header img {
@@ -34,15 +36,16 @@ header p {
 /* Bar */
 #header {
     position:sticky;
-    top: 0;
+    top: -1px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 10px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-bottom: 1px solid #00000033;
-    background-color: #ff005d66;
+    color: white;
+    background-color: #000000ee;
     /*background-image: linear-gradient(30deg, #ff005d66, #ff539233); /*header bg*/
 }
 
@@ -75,7 +78,7 @@ header p {
 
 #header nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #header nav ul li a:hover {
@@ -98,7 +101,7 @@ header p {
 
 #line-one {
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 32px;
     border-radius: 4px;
     top: 8px;
@@ -106,7 +109,7 @@ header p {
 
 #line-two {
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 32px;
     border-radius: 4px;
     top: 16px;
@@ -114,7 +117,7 @@ header p {
 
 #line-three {
     position: absolute;
-    border: 2px solid black;
+    border: 2px solid white;
     width: 32px;
     border-radius: 4px;
     top: 24px;
@@ -176,5 +179,120 @@ header p {
 }
 
 #menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+
+main {
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+.inline-links {
+    text-decoration: none;
+    color: rgb(70, 70, 255);
+}
+
+.inline-links:hover {
+    text-decoration: underline;
+}
+
+/* Section: SDG */
+
+#sdg {
+    text-align: center;
+    padding: 30px;
+    background-color: #000000;
+    color: white;
+    margin: 30px auto;
+    border-radius: 20px;
+    max-width: 560px;
+    box-shadow: 0 0 30px #00000099;
+}
+
+#sdg img {
+    width: 200px;
+}
+
+#sdg p {
+    margin-bottom: 30px;
+}
+
+#sdg a {
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(82, 206, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 12px rgba(82, 206, 255, 0.7);
+}
+
+#sdg a:hover {
+    background-color: rgb(40, 150, 255);
+    transition: background-color 0.2s ease-in;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#company {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+footer ul {
+    margin: 0;
+    padding:0 ;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer ul li a img {
+    width: 24px;
+    height: 24px;
+}
+
+#address {
+    padding-bottom: 20px;
+    color: grey;
+    font-size: 12px;
+}
+
+.reserve {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    color: grey;
+}
+
+.reserve a:hover {
     text-decoration: underline;
 }
