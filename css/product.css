@@ -200,8 +200,8 @@ main{
 
 #portion button {
     border: none;
-    border-radius: 10px;
-    height: 30px;
+    border-radius: 30px;
+    height: 25px;
 }
 
 #portion button:hover {
@@ -219,9 +219,15 @@ main div {
     box-shadow: 0 0 20px #00000044;
 }
 
+@media (max-width: 450px) {
+    #div-shadow {
+        box-shadow: none;
+    }
+}
+
 main div img {
     width: 280px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
 }
 
 main a button {

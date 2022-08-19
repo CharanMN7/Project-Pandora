@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/product.css">
-    <title>Document</title>
+    <title>About</title>
 </head>
 <body>
 <header>
+    <a href="index.html"><img src="css/images/icons/cherries-white.png" alt="" id="cherry-icon"></a>
+    <p>Project&nbsp;Pandora</p>
+</header>
+<div id="header">
     <div id="heading">
-        <a href=""><img src="css/images/icons/cherries-bw.png" alt="company icon" id="cherry-icon"></a>
-        <h1>Project&nbsp;Pandora</h1>
+        <h1>ProBook 1</h1>
     </div>
     <nav>
         <ul>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="press.html">Press</a></li>
+            <li><a href="shop.html">Store</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event-register.html">Leaders</a></li>
         </ul>
     </nav>
     <div id="menu-btn">
@@ -25,19 +28,66 @@
         <div id="line-two"></div>
         <div id="line-three"></div>
     </div>
-</header>
-
+</div>
 <div id="no-space">
     <ul id="menu">
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="press.html">Press</a></li>
+        <li><a href="shop.html">Store</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="press.html">Leaders</a></li>
         <li id="close">Close</li>
     </ul>
 </div>
 
-<!--The Script-->
-<script src="icon.js"></script>
-<script src="menu.js"></script>
+<main>
+
+<div id="div-shadow">
+    <div id="portion">
+        <button onclick="prev()">&lt;</button>
+        <img src="css/images/laptop-1.png" alt="" id="slider">
+        <button onclick="next()">&gt;</button>
+    </div>
+    <p>ProBook 1</p>
+    <p>
+        Processor: Venganza Mark-I <br>
+        Operating System: Pandora X <br>
+        Screen Size: 16' 1 inches<br>
+    </p>
+</div>
+
+<div id="pay">
+    <p>Get this super power at just $899</p>
+    <form action="">
+        <label for="name">Your Name:</label><br>
+        <input type="name" required><br>
+        <label for="card">Card Number:</label><br>
+        <input type="number" min="124273919482" required><br>
+        <label for="pin">Your Pin:</label><br>
+        <input type="number" min="1000" max="9999" required><br>
+    </form>
+    <a href="order-land.html"><button>Buy</button></a>
+</div>
+
+</main>
+
+<footer>
+    <a href="#">
+    <div id="company">
+        <img src="css/images/icons/cherries-color.png" alt="">
+        <p>Project Pandora &COPY;</p>
+    </div>
+    </a>
+    <ul>
+        <li><a href="https://twitter.com/CharanMN7"><img src="css/images/icons/twitter-white.png" alt=""></a></li>
+        <li><a href="https://www.linkedin.com/in/a-vidhan-reddy-9200aa23a/"><img src="css/images/icons/linkedin-white.png" alt=""></a></li>
+        <li><a href="https://twitter.com/CharanMN7"><img src="css/images/icons/instagram-white.png" alt=""></a></li>
+    </ul>
+    <p id="address">2360 43rd Ave E, Seattle<br>WA 98112, United States</p>
+    <p class="reserve">This is a fictional site</p>
+    <p class="reserve">All the resources used are for creative demonstration purpose only</p>
+    <p class="reserve">All of the site's code is <a href="https://github.com/CharanMN7/Project-Pandora">my original work.</a></p>
+    <p></p>
+</footer>
+
+<script src="index.js"></script>
 </body>
 </html>
