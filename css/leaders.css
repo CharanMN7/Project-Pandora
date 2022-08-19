@@ -208,6 +208,13 @@ main {
 
 .profile ul li a img {
     width: 24px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.profile ul li a img:hover {
+    background-color: #00000033;
+    transition: background-color 0.2s ease-in;
 }
 
 
@@ -254,6 +261,13 @@ footer ul li {
 footer ul li a img {
     width: 24px;
     height: 24px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+footer ul li a img:hover {
+    background-color: #ffffff22;
+    transition: background-color 0.2s ease-in;
 }
 
 #address {

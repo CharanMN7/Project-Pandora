@@ -298,6 +298,13 @@ footer ul li {
 footer ul li a img {
     width: 24px;
     height: 24px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+footer ul li a img:hover {
+    background-color: #ffffff22;
+    transition: background-color 0.2s ease-in;
 }
 
 
