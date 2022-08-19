@@ -229,26 +229,29 @@ header nav ul li a:hover {
     height: 200px;
 }
 
-#edu p:last-of-type {
-    margin-bottom: 30px;
+#coming-soon:last-of-type {
+    /* margin-bottom: 30px; */
+    margin: 20px auto;
 }
 
-#edu a {
+#coming-soon {
+    width: fit-content;
     padding: 10px 20px;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-decoration: none;
     border-radius: 50px;
     background-color: #000000;
-    color: #ffffff;
+    color: white;
     box-shadow: 0 0 12px #00000077;
 }
 
-#edu a:hover {
+#coming-soon:hover {
     background-color: #ffffff;
-    color: black;
+    color: #000000;
     transition: background-color 0.2s ease-in;
     transition: color 0.2 ease-in;
+    cursor:default;
 }
 
 /* Footer */
